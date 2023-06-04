@@ -3,28 +3,29 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects">
+<BaseLayout title = "ES| Projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="Report Automation"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc=" I used knime to automate the process of generating reports for the team, this automation assign the new data to the correct team member, track the status of each invoice and send the report by email."
     url="#"
-    badge="NEW"
+    badge="Knime"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="Excel macro for data extraction"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc="I develop a excel macro to extract meaningful data from a large data set, this macro was used to extract data from a 5000+ rows and 40+ columns data set. The objective was just take the data that was needed."
     url="#"
+    badge="Excel"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <!-- <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
   </div>
 
   <HorizontalCard
@@ -47,5 +48,5 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+  /> -->
 </BaseLayout>

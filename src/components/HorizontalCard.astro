@@ -4,7 +4,7 @@ import { Image } from "@astrojs/image/components";
 ---
 
 <div
-  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
+  class="rounded-lg bg-neutral-900 text-white border-green-400 border-solid border-2 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
 >
   <a href={url} target={target}>
     <div class="hero-content flex-col md:flex-row">
@@ -21,9 +21,9 @@ import { Image } from "@astrojs/image/components";
         )
       }
       <div class="grow w-full">
-        <h1 class="text-xl font-bold">
+        <h1 class="text-xl font-bold text-green-400">
           {title}
-          {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
+          {badge && <div class="badge badge-secondary mx-2 bg-green-400 text-neutral-900">{badge}</div>}
         </h1>
         <p class="py-1 text-1xl">{desc}</p>
         <div class="card-actions justify-end">

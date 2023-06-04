@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
-<BaseLayout title="Resume">
+<BaseLayout title="ES|Resume">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
@@ -21,12 +21,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+    title="SAP management and administration"
+    subtitle="Oct 2022 to Feb 2023 at Procter & Gamble, San Jose, Costa Rica"
+  />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Technical Degree as Executive for Service Center"
+      subtitle="2020 to 2022 at CTP de Ulloa, Heredia, Costa Rica"
     />
   </div>
 
@@ -36,22 +36,16 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Accounts Payable Analyst at Procter & Gamble"
+      subtitle="From Jan 2023 to May 2023 at Procter & Gamble, San Jose, Costa Rica"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    I provided support for invoice processing and troubleshooting for vendors in North and Latin America, identifying the causes and common issues that affect payment timeliness. In this role, I effectively communicated with buyers, suppliers, and Order Management teams in the region. I proactively proposed improvements and documented them, such as the Invoice Priceblock Standard Operating Procedure (SOP). Meeting invoicing targets and prioritizing tasks were among my responsibilities, and I consistently adhered to best practices. Additionally, I collaborated with leaders to develop scalable processes.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Executive assistant at Procter & Gamble"
+      subtitle="From Oct 2022 to Jan 2023 at Procter & Gamble, San Jose, Costa Rica"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    I was responsible for utilizing SAP to maintain material data and took detailed notes during meetings. Simultaneously, I proactively expanded my knowledge of the Planning Process, specifically MRPII. Furthermore, I played a pivotal role in creating automated reporting systems to track material data and collaborated closely with planners across Latin America.
     </TimeLineElement>
   </div>
 
@@ -60,33 +54,63 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+    <li class="hover:underline">
+      <a href="https://certs.duolingo.com/476514512ae75820b3d84c76001737de" target="_blank"> English Proficiency Certificate (Score 110)</a>
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="https://www.coursera.org/account/accomplishments/verify/Z7AERH6QVHCS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"> Introduction to Front-End Development</a>
     </li>
   </ul>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+
+    <div
+    id="skills"
+    class="
+    flex flex-row flex-wrap
+    sm:justify-start md:justify-around lg:justify-start
+    gap-5
+    ">
+    <div class="
+      w-full md:max-w-xs
+    ">
+      <h2 class="
+        text-3xl
+        font-bold
+      ">
+        Technical Skills
+      </h2>
+      <p class="skillsList">
+        <ul>
+          <li>Intermediate SAP Management</li>
+          <li>Basic Coupa Management</li>
+          <li>Detection of Posting Issues</li>
+          <li>Billing Troubleshooting</li>
+          <li>Data Handling with Knime</li>
+          <li>Microsoft Office 365</li>
+          <li>VBA (Macros) for Automation</li>
+        </ul>
+      </p>
+    </div>
+    <div class="
+      w-full md:max-w-xs
+    ">
+      <h2 class="
+        text-3xl
+        font-bold
+      ">
+        Soft Skills
+      </h2>
+      <p class="skillsList">
+        <ul>
+          <li>Rapid Problem Understanding</li>
+          <li>Quick Learning Ability</li>
+          <li>Empathy</li>
+          <li>Leadership</li>
+          <li>Vision</li>
+          <li>Critical Thinking</li>
+          <li>Passion for Sharing Knowledge</li>
+        </ul>
+      </p>
+    </div>
   </div>
-
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
 </BaseLayout>
