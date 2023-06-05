@@ -2,7 +2,7 @@
 title: "Automate Your Excel Tasks and Save Time with KNIMEs"
 description: "Automate Excel tasks, save time, and supercharge your data analysis with KNIME. Discover its seamless integration with Excel, empowering you to streamline workflows and unleash your productivity. Start optimizing your tasks today!"
 pubDate: "Jun 3, 2023"
-heroImage: "../../../public/blog-images/mastering-p2p-process-flow-the-key-to-uninterrupted-cash-flow-in-companie.png"
+heroImage: "../../../public/blog-images/automate-your-excel-tasks-and-save-time-with-knime.png"
 badge: "Knime"
 ---
 
